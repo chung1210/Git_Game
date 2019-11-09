@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="app">
+      <UniqueIdentifier>{5def52dd-e96b-4a0e-9f7b-fb762b2f5f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{ae93bb28-a6ac-4721-9f14-dc1b15bfd99e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\Scenes">
+      <UniqueIdentifier>{e0ca5dbd-40ef-4d11-b913-8ab0ae4e3113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\Scenes\MenuScene">
+      <UniqueIdentifier>{8c030e78-50f0-4523-b06e-560c16070280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\Scenes\IntroScene">
+      <UniqueIdentifier>{eb4a6d1f-6889-4fbd-a15f-54ecf156d7a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\Scenes\EnterCastleScene">
+      <UniqueIdentifier>{f314aa28-a6b6-4224-a557-3523b9800c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\Scenes\Stage">
+      <UniqueIdentifier>{68edbe44-79b2-457d-8b21-2ac490a5607f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\UserInterface">
+      <UniqueIdentifier>{bbc85998-ddb5-442f-939e-ded88438939a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\UserInterface\Window">
+      <UniqueIdentifier>{2e8d3f46-c6f8-45d0-8c03-a910e17b4f88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\UserInterface\Graphics">
+      <UniqueIdentifier>{295f0eaf-486d-4881-ae0d-0396bc8bd10d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\UserInterface\GamePanel">
+      <UniqueIdentifier>{c2fc2a97-4efd-4261-87a3-1ff10a030ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\UserInterface\Keyboard">
+      <UniqueIdentifier>{4f09a92b-2f5e-46e1-b1df-956610d6226b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\UserInterface\Sound">
+      <UniqueIdentifier>{094ba551-e85e-462d-86ed-b557392c984d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\Utilities">
+      <UniqueIdentifier>{518bd197-8cac-4e52-b0e1-705d634f7edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\Utilities\LoadHelper">
+      <UniqueIdentifier>{4a9132c0-9d75-4244-b63a-e1362b7fe7b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\Utilities\ReadFilesHelper">
+      <UniqueIdentifier>{70aee12b-a12c-434e-abde-081a9a42e02a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\VisualFigures">
+      <UniqueIdentifier>{c8a27879-d9a0-4a3f-b448-86613a467349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\Framework">
+      <UniqueIdentifier>{be8faefc-6544-4516-81a9-3fa4778e80d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\Framework\Texture">
+      <UniqueIdentifier>{19059749-1efb-4513-ac36-9914023a51ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\Framework\Sprite">
+      <UniqueIdentifier>{c6fc4103-f378-44d2-9482-55e60dabe4d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\Framework\Animation">
+      <UniqueIdentifier>{822d0a3c-6fc4-4d82-883b-4e23b960032a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\Common">
+      <UniqueIdentifier>{64a0fd6b-a617-4da8-b958-3938015f2e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\GameObject">
+      <UniqueIdentifier>{f585e4cc-8e04-436c-b409-8850cda3025f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\GameObject\Players">
+      <UniqueIdentifier>{ca5d2c42-b6aa-4bec-b6e1-fc3d7327c512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\GameObject\Enemies">
+      <UniqueIdentifier>{5b3951f8-443b-4d99-8794-74a8d714d8ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\GameObject\Statics">
+      <UniqueIdentifier>{2463db06-2dbe-4da0-8495-d4cdfbd4c72c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\GameObject\Items">
+      <UniqueIdentifier>{729feee8-d99a-4991-97be-2cd489e6f954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\GameObject\Ground">
+      <UniqueIdentifier>{a8455c67-2519-40ac-9307-9d94850d4c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\GameObject\Manager">
+      <UniqueIdentifier>{3a0387a0-61c7-4962-a3d9-6c7ebc13f325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\GameObject\Map">
+      <UniqueIdentifier>{605f84e9-d915-4cc1-827c-333ae9fc9363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\GameObject\Weapons">
+      <UniqueIdentifier>{2897316d-bb25-4fea-93c5-b427cf5b6b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\GameObject\Weapons\SubWeapons">
+      <UniqueIdentifier>{9e4389e9-3b7a-4dd4-9761-83925d91f21e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\GameObject\Specials">
+      <UniqueIdentifier>{154b209a-9959-4624-ad1e-6f14b18236d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\Core">
+      <UniqueIdentifier>{6d9cc43b-b535-4d0e-b29c-7fcfabf17734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\Core\GameWorld">
+      <UniqueIdentifier>{6181275f-008e-4cc9-b295-c125b166f5fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CWindow_Screen.cpp">
+      <Filter>base\UserInterface\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphics.cpp">
+      <Filter>base\UserInterface\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="CGamePanel.cpp">
+      <Filter>base\UserInterface\GamePanel</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextures.cpp">
+      <Filter>base\Framework\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CSprites.cpp">
+      <Filter>base\Framework\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimationFrame.cpp">
+      <Filter>base\Framework\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation.cpp">
+      <Filter>base\Framework\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameWorld.cpp">
+      <Filter>app\Core\GameWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadResources.cpp">
+      <Filter>base\Utilities\LoadHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>base\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Menu.cpp">
+      <Filter>base\Scenes\MenuScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>base\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumCommon.cpp">
+      <Filter>base\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyboard.cpp">
+      <Filter>base\UserInterface\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameState.cpp">
+      <Filter>base\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObject.cpp">
+      <Filter>app\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonFunction.cpp">
+      <Filter>base\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadFilesHelper.cpp">
+      <Filter>base\Utilities\ReadFilesHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="CSimon.cpp">
+      <Filter>app\GameObject\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_EnterCastle.cpp">
+      <Filter>base\Scenes\EnterCastleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Intro.cpp">
+      <Filter>base\Scenes\IntroScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyGameHandler.cpp">
+      <Filter>base\UserInterface\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="CStage.cpp">
+      <Filter>base\Scenes\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="CDObject.cpp">
+      <Filter>app\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>base\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CCharacter.cpp">
+      <Filter>app\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>app\GameObject\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="CVisualFigures.cpp">
+      <Filter>base\VisualFigures</Filter>
+    </ClCompile>
+    <ClCompile Include="CGround.cpp">
+      <Filter>app\GameObject\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="Static.cpp">
+      <Filter>app\GameObject\Statics</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObjectManager.cpp">
+      <Filter>app\GameObject\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>app\GameObject\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="CWhip.cpp">
+      <Filter>app\GameObject\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundMap.cpp">
+      <Filter>app\GameObject\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="CWaveFile.cpp">
+      <Filter>base\UserInterface\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSound.cpp">
+      <Filter>base\UserInterface\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>base\UserInterface\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GridContainer.cpp">
+      <Filter>app\GameObject\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="CDagger.cpp">
+      <Filter>app\GameObject\Weapons\SubWeapons</Filter>
+    </ClCompile>
+    <ClCompile Include="CAxe.cpp">
+      <Filter>app\GameObject\Weapons\SubWeapons</Filter>
+    </ClCompile>
+    <ClCompile Include="CHollyWater.cpp">
+      <Filter>app\GameObject\Weapons\SubWeapons</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoomerang.cpp">
+      <Filter>app\GameObject\Weapons\SubWeapons</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemy.cpp">
+      <Filter>app\GameObject\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>app\GameObject\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CStair.cpp">
+      <Filter>app\GameObject\Specials</Filter>
+    </ClCompile>
+    <ClCompile Include="CDoor.cpp">
+      <Filter>app\GameObject\Specials</Filter>
+    </ClCompile>
+    <ClCompile Include="CWeapon.cpp">
+      <Filter>app\GameObject\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="winmain.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppConfiguration.h">
+      <Filter>base\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CWindow_Screen.h">
+      <Filter>base\UserInterface\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraphics.h">
+      <Filter>base\UserInterface\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="CGamePanel.h">
+      <Filter>base\UserInterface\GamePanel</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextures.h">
+      <Filter>base\Framework\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CSprites.h">
+      <Filter>base\Framework\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimationFrame.h">
+      <Filter>base\Framework\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation.h">
+      <Filter>base\Framework\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadResources.h">
+      <Filter>base\Utilities\LoadHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>base\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Menu.h">
+      <Filter>base\Scenes\MenuScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>base\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumCommon.h">
+      <Filter>base\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyboard.h">
+      <Filter>base\UserInterface\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameState.h">
+      <Filter>base\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObject.h">
+      <Filter>app\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFunction.h">
+      <Filter>base\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadFilesHelper.h">
+      <Filter>base\Utilities\ReadFilesHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="CSimon.h">
+      <Filter>app\GameObject\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_EnterCastle.h">
+      <Filter>base\Scenes\EnterCastleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Intro.h">
+      <Filter>base\Scenes\IntroScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyGameHandler.h">
+      <Filter>base\UserInterface\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="CStage.h">
+      <Filter>base\Scenes\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="CDObject.h">
+      <Filter>app\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>base\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CCharacter.h">
+      <Filter>app\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>app\GameObject\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="CVisualFigures.h">
+      <Filter>base\VisualFigures</Filter>
+    </ClInclude>
+    <ClInclude Include="CGround.h">
+      <Filter>app\GameObject\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="Static.h">
+      <Filter>app\GameObject\Statics</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObjectManager.h">
+      <Filter>app\GameObject\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>app\GameObject\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="CWhip.h">
+      <Filter>app\GameObject\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameWorld.h">
+      <Filter>app\Core\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundMap.h">
+      <Filter>app\GameObject\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="CWaveFile.h">
+      <Filter>base\UserInterface\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSound.h">
+      <Filter>base\UserInterface\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>base\UserInterface\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>app\GameObject\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GridContainer.h">
+      <Filter>app\GameObject\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="CDagger.h">
+      <Filter>app\GameObject\Weapons\SubWeapons</Filter>
+    </ClInclude>
+    <ClInclude Include="CAxe.h">
+      <Filter>app\GameObject\Weapons\SubWeapons</Filter>
+    </ClInclude>
+    <ClInclude Include="CHollyWater.h">
+      <Filter>app\GameObject\Weapons\SubWeapons</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoomerang.h">
+      <Filter>app\GameObject\Weapons\SubWeapons</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemy.h">
+      <Filter>app\GameObject\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="CStair.h">
+      <Filter>app\GameObject\Specials</Filter>
+    </ClInclude>
+    <ClInclude Include="CDoor.h">
+      <Filter>app\GameObject\Specials</Filter>
+    </ClInclude>
+    <ClInclude Include="CWeapon.h">
+      <Filter>app\GameObject\Weapons</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
